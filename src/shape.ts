@@ -6,8 +6,8 @@ export class BaseShapeComponent {
     this.shape = shape;
   }
 
-  animate(to: number) {
-    this.shape.animate(to);
+  animate(to: number, options?: any) {
+    this.shape.animate(to, ...options);
   }
 
   setText(text: string) {
