@@ -1,6 +1,6 @@
 {
   "name": "angular2-progressbar",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Angular2 component for progressbarjs",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/rodolphocaires/angular2-progressbar#readme",
   "dependencies": {
-    "progressbar.js": "1.0.1"
+    "progressbar.js": "^1.0.1"
   },
   "devDependencies": {
     "@angular/common": "2.0.0",
